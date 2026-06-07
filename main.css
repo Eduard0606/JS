@@ -744,6 +744,9 @@ th:first-child {
   justify-content: center;
   background-color: rgb(15, 62, 44);
   width: 100%;
+  height: 700px;
+  margin-top: 150px;
+  
 }
 .heade {
   padding: 0px;
@@ -839,3 +842,6 @@ th:first-child {
   }
 }
 /* Стили для  Семнадцатого задания */
+/* Стили для  Восемнадцатого задания */
+
+/* Стили для  Восемнадцатого задания */
