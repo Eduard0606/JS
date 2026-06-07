@@ -1,0 +1,734 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0px;
+}
+/*Общие стили*/
+.homeWorktext {
+  text-align: center;
+  margin: 10px 0;
+  background-color: rgb(81, 3, 215);
+  height: 25px;
+  color: white;
+  padding: 20px;
+}
+/*Стили для первого задания */
+.cont_dz1 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: normal;
+}
+.formatingtext {
+  background-color: #e4e6ed;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+.grey {
+  color: #1e3853;
+  margin: 20px 0px 0px 0px;
+  display: block;
+  font-weight: bold;
+}
+.violet {
+  color: rgb(162, 16, 162);
+  text-align: center;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+/*Стили для первого задания */
+
+/*Стили для второго задания */
+.cards {
+  background-color: #e4e6ed;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.card_cont1 {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.cont_dz2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Стили для второго задания */
+
+/*Стили для Третьего задания */
+.cont_dz3 {
+  display: flex;
+  font-weight: normal;
+}
+.cont_dz3 h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+}
+.dashed {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.redtext {
+  background-color: rgb(213, 206, 206);
+  color: rgb(217, 88, 88);
+}
+.black {
+  color: #000;
+}
+pre {
+  background-color: rgb(225, 221, 221);
+  padding: 10px;
+}
+.green {
+  background-color: rgb(213, 206, 206);
+  color: #1c8ba7;
+}
+.contText {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+/*Стили для Третьего задания */
+
+/*Стили для Четвертого задания */
+.cont_dz4 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.cont_fruit {
+  background-color: rgb(230, 128, 128);
+  width: 100%;
+  padding: 30px;
+}
+.fruit {
+  background-color: rgb(135, 34, 34);
+  padding: 20px;
+  margin-left: 20px;
+}
+.cont_fruit li {
+  margin: 15px;
+  padding: 20px 20px 20px 30px;
+  background-color: rgb(201, 89, 89);
+  list-style: none;
+}
+
+/*Стили для Четвертого задания */
+
+/*Стили для Пятого задания */
+.cont_dz5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont_list {
+  padding: 20px;
+  background-color: #cfd0d1;
+  width: 100%;
+  list-style: none;
+}
+.h2 {
+  text-align: left;
+  padding: 0px 0px 20px 0px;
+}
+
+.cont_list li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 93%;
+}
+.blue {
+  background-color: #0983a1;
+}
+.greyy {
+  background-color: rgb(192, 192, 192);
+  text-decoration: line-through;
+}
+.light_blue {
+  background-color: rgb(42, 108, 148);
+}
+.cont_list img {
+  margin: 0px 20px 0px 20px;
+}
+
+/*Стили для Шестого задания */
+.cont_dz6 {
+  display: flex;
+  justify-content: space-between;
+}
+.greytext {
+  color: rgb(171, 171, 171);
+}
+.blueee {
+  color: #3519d3;
+  cursor: pointer;
+}
+dt {
+  margin: 20px;
+}
+dd {
+  margin: 20px 20px 20px 100px;
+}
+
+.cont_dz6 li {
+  margin: 10px 20px 10px 100px;
+}
+.teg {
+  margin: 10px 20px 10px;
+}
+/*Стили для Шестого задания */
+
+/* Стили для Седьмого задания */
+.cont_dz7 {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 90px;
+  height: 120px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cont_img {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+/* Стили для Седьмого задания */
+/* Стили для Восьмого задания */
+.cont_dz8 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(46, 45, 35);
+}
+.menu:hover {
+  background-color: rgb(81, 78, 52);
+}
+.cont_menu {
+  margin: 0 auto;
+  margin-top: 160px;
+}
+/* Стили для Восьмого задания */
+/* Стили для Девятого задания */
+.cont_dz9 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_for_bloks {
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+}
+.cont_cont_for_Cont {
+  display: flex;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(176, 49, 94);
+  text-align: left;
+  margin: 10px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(176, 49, 94);
+  margin: 10px;
+}
+aside {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(176, 49, 94);
+  margin: 0 10px 10px 10px;
+}
+aside:nth-child(2) {
+  height: 100px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 430px;
+  height: 270px;
+  background-color: rgb(219, 126, 175);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.text {
+  position: relative;
+  left: 10px;
+}
+.secti {
+  height: 60px;
+  background-color: rgb(192, 70, 94);
+  margin: 10px;
+  padding: 10px;
+}
+.drygoi {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(219, 126, 175);
+}
+/* Стили для Девятого задания */
+/* Стили для Десятого задания */
+.cont_dz10 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.foot {
+  background: rgb(20, 20, 81);
+  width: 750px;
+  margin-left: 10px;
+  height: 300px;
+}
+.contacts {
+  margin: 5px;
+}
+.cont_for_foot {
+  margin: 30px;
+}
+.contacts:hover {
+  text-decoration: underline;
+}
+.pictures1 {
+  content: "";
+  background-image: url(/fb_gray.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.pictures1:hover {
+  content: "";
+  background-image: url(/fb.png);
+  z-index: 1;
+}
+.pictures2 {
+  content: "";
+  background-image: url(/insta_gray.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.pictures2:hover {
+  content: "";
+  background-image: url(/insta.png);
+  z-index: 1;
+}
+.pictures3 {
+  content: "";
+  background-image: url(/youtube_gray.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.pictures3:hover {
+  content: "";
+  background-image: url(/youtube.png);
+  z-index: 1;
+}
+.cont_for_foot2 {
+  display: flex;
+}
+.cont_for_cont {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.copyright {
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+/* Стили для Десятого задания */
+/* Стили для Одиннадцатого задания */
+.cont_dz11 {
+  display: flex;
+  justify-content: space-between;
+}
+.square {
+  width: 400px;
+  height: 400px;
+  border: 3px solid rgb(16, 139, 113);
+  border-radius: 50%;
+  position: relative;
+}
+.cont_clock {
+  margin: auto auto;
+}
+.hours,
+.minute {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+}
+.hours {
+  height: 120px;
+  width: 3px;
+  background: rgb(16, 139, 113);
+  animation: hourRotate 360s linear infinite;
+}
+.minute {
+  height: 180px;
+  width: 2px;
+  background: rgb(16, 139, 113);
+  animation: minuteRotate 60s linear infinite;
+}
+@keyframes minuteRotate {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+@keyframes hourRotate {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+/* Стили для  Одиннадцатого  задания */
+/* Стили для  Двенадцатого  задания */
+.cont_dz12 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_doors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 760px;
+  height: 250px;
+  margin: auto auto;
+  perspective: 1000px;
+  transform: translateZ(0);
+}
+.doors {
+  width: 380px;
+  height: 250px;
+  border: 3px solid rgb(160, 38, 38);
+  background-color: rgb(150, 32, 150);
+  margin: 0;
+  flex-shrink: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: transform 3s ease;
+}
+
+.doors:first-child {
+  transform-origin: left;
+}
+
+.doors:last-child {
+  transform-origin: right;
+}
+
+.cont_doors:hover .doors:first-child {
+  transform: rotateY(60deg);
+}
+
+.cont_doors:hover .doors:last-child {
+  transform: rotateY(-60deg);
+}
+
+.cont_doors:hover .doors:first-child {
+  transform: rotateY(60deg);
+  transform-origin: left;
+}
+
+.cont_doors:hover .doors:last-child {
+  transform: rotateY(-60deg);
+  transform-origin: right;
+}
+.hello {
+  z-index: -1;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  pointer-events: none;
+}
+/* Стили для  Двенадцатого  задания */
+/* Контейнер всего задания */
+.cont_dz13 {
+  display: flex;
+  gap: 170px;
+}
+.cont13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.group {
+  display: flex;
+  margin-left: 10px;
+}
+.block {
+  width: 300px;
+  height: 200px;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.block::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.3s ease;
+}
+.group:hover .block::after {
+  background: rgba(0, 0, 0, 0.5);
+}
+.block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+.group:hover img {
+  transform: scale(1.2);
+}
+/* Стили для  Тринадцатого  задания */
+/* Стили для  Четырнадцатого  задания */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td,
+th,
+tr {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+td,
+th {
+  background-color: rgb(222, 214, 214);
+}
+th {
+  background-color: aqua;
+}
+table tr:not(:first-child) td:first-child {
+  background-color: aqua;
+}
+tbody tr:nth-child(2n) td {
+  background-color: rgb(156, 151, 151);
+}
+th {
+  position: sticky;
+  top: 0;
+}
+td:first-child,
+th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+/* Стили для  Четырнадцатого  задания */
+/* Стили для  Пятнадцатого  задания */
+.cont_dz15 {
+  position: relative;
+}
+.cont_for_sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+.cont_for_sidebar:hover {
+  width: 200px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  transition: 0.3s ease;
+}
+.items img {
+  width: 40px;
+  height: 40px;
+}
+.words {
+  margin-left: 10px;
+  opacity: 0;
+  transform: translateX(-10px);
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.cont_for_sidebar:hover .words {
+  opacity: 1;
+  transform: translateX(0);
+}
+.items:hover {
+  background-color: rgb(40, 38, 38);
+}
+.lorem {
+  padding: 20px;
+  margin-left: 80px;
+}
+/* Стили для  Пятнадцатого  задания */
+/* Стили для  Шеснадцатого задания */
+.cont_dz16 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_for_example {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cont_for_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(74, 72, 72);
+  transition: 0.5s ease;
+}
+.name {
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  margin: 15px 0px 5px 0px;
+  width: 100%;
+}
+.line-gradient {
+  margin: 5px 0px 5px 0px;
+  display: block;
+  border: 2px solid #c73855;
+  width: 99%;
+}
+.prise {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.actualy {
+  color: rgb(223, 214, 214);
+  margin: 5px;
+}
+.word_block {
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 800;
+}
+.button2 {
+  display: flex;
+  margin: 10px;
+  background-color: #c73855;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cards2:nth-child(2) .button2 {
+  background: rgb(221, 170, 17);
+}
+.cards2:nth-child(2) .line-gradient {
+  border: 2px solid rgb(221, 170, 17);
+}
+.cards2:nth-child(3) .button2 {
+  background: rgb(16, 84, 168);
+}
+.cards2:nth-child(3) .line-gradient {
+  border: 2px solid rgb(16, 84, 168);
+}
+
+.cards2:nth-child(4) .button2 {
+  background: rgb(13, 176, 18);
+}
+.cards2:nth-child(4) .line-gradient {
+  border: 2px solid rgb(13, 176, 18);
+}
+.cards2:hover {
+  scale: 1.1;
+}
+/* Стили для  Шеснадцатого задания */
+/* Стили для  Семнадцатого задания */
+
+/* Стили для  Семнадцатого задания */
