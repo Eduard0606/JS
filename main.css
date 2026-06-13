@@ -922,3 +922,77 @@ th:first-child {
   }
 }
 /* Стили для  Восемнадцатого задания */
+/* Стили для  Девяднадцатого задания */
+.cont_dz19 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_example1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cont_maiin {
+  width: 100%;
+  height: 100%;
+}
+.cont_maiin a {
+  padding: 10px;
+  width: 130px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.mail_cont {
+  display: flex;
+}
+.mail_info {
+  margin: 30px;
+  width: 100%;
+}
+.messages {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.messages img{
+  margin: 0px 20px 0px 0px;
+}
+.messages span:nth-child(2){
+  margin-right: 50px;
+}
+.heaaader {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-right: 10px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.mail img {
+  margin-left: 20px;
+}
+.navigation {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.cont_maiin a:hover {
+  background-color: rgb(243, 206, 206);
+}
+/* Стили для  Девяднадцатого задания */
